@@ -30,6 +30,17 @@ body {
   padding-right: 0;
 }
 
+@media (min-width: 992px) { 
+  .sobremi .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .sobremi .col-md-6 {
+    width: 100%;
+  }
+}
+
 .footer-redes {
   display: flex;
   justify-content: center;
@@ -47,7 +58,7 @@ body {
 }
 
 .portafolio {
-  margin: 10px;
+  margin: 120px;
 }
 
 .img-small {
@@ -61,6 +72,7 @@ body {
   justify-content: center;
   border: none;
   margin-top: 30px;
+  margin-bottom: 50px;
   
   &-img-top {
     width: 200px;
@@ -72,4 +84,8 @@ body {
   img {
     max-width: 200px;
   }
+}
+
+.forms {
+  margin: 100px;
 }

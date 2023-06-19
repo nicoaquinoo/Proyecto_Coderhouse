@@ -34,6 +34,19 @@ body {
   padding-right: 0;
 }
 
+@media (min-width: 992px) {
+  .sobremi .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .sobremi .col-md-6 {
+    width: 100%;
+  }
+}
+
 .footer-redes {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -57,7 +70,7 @@ body {
 }
 
 .portafolio {
-  margin: 10px;
+  margin: 120px;
 }
 
 .img-small {
@@ -77,6 +90,7 @@ body {
           justify-content: center;
   border: none;
   margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 .card-img-top {
@@ -86,5 +100,9 @@ body {
 
 .sobremi img {
   max-width: 200px;
+}
+
+.forms {
+  margin: 100px;
 }
 /*# sourceMappingURL=styles.css.map */
